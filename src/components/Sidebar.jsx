@@ -23,7 +23,7 @@ const Sidebar = () => {
         {isOpen ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
       </button>
       <div
-        className={`fixed top-0 md:relative w-fit text-nowrap flex flex-col h-screen bg-gradient-to-r from-gray-900 to-gray-800 shadow-xl ${
+        className={`fixed md:sticky left-0 top-0 w-fit text-nowrap flex flex-col h-screen bg-gradient-to-r from-gray-900 to-gray-800 shadow-xl ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } md:translate-x-0 transition-transform duration-300 z-40`}
       >
