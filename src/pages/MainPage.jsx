@@ -2,7 +2,7 @@ import React from "react";
 
 const MainPage = () => {
   return (
-    <div className="w-full md:w-1/2 mx-auto flex flex-col items-center justify-center">
+    <div className="w-full md:w-1/2 mx-auto flex flex-col items-center justify-center overflow-x-auto">
       <h1 className="text-center text-3xl py-4">Albanski slikari</h1>
       <p className="text-xl text-center px-6">
         U Crnoj Gori postoji nekoliko mladih albanskih slikara koji se ističu
