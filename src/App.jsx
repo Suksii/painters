@@ -1,12 +1,14 @@
 import "./App.css";
+import Sidebar from "./components/Sidebar";
 import MainPage from "./pages/MainPage";
-import {Routes, Route} from "react-router-dom"
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <div className="flex min-h-screen">
+      <Sidebar />
       <Routes>
-        <Route path="/" element={<MainPage />}/>
+        <Route path="/" element={<MainPage />} />
         <Route path="/djokaj_djeljos" />
         <Route path="/gjokaj_agron" />
         <Route path="/kapllani_edin" />
