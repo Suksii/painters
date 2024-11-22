@@ -12,9 +12,9 @@ const MainPage = () => {
   ];
 
   return (
-    <div className="container mx-auto p-8">
+    <>
       <h1 className="text-center text-4xl font-bold mb-8 text-gray-800">
-        Albanski Slikari
+        Albanski slikari
       </h1>
 
       <div className="flex flex-col-reverse xl:flex-row items-center mb-8 gap-6">
@@ -35,12 +35,15 @@ const MainPage = () => {
 
       <div className="space-y-6">
         {paragraphs.slice(2).map((paragraph, index) => (
-          <p key={index} className="text-lg md:text-xl leading-relaxed text-gray-700">
+          <p
+            key={index}
+            className="text-lg md:text-xl leading-relaxed text-gray-700"
+          >
             {paragraph}
           </p>
         ))}
       </div>
-    </div>
+    </>
   );
 };
 
