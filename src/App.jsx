@@ -13,6 +13,15 @@ import GjokajAgron3 from "./assets/Gjokaj Agron1.jpg";
 import KapllaniEdin1 from "./assets/Kapllani Edin.jpg";
 import KapllaniEdin2 from "./assets/Kapllani Edin1.jpg";
 import KapllaniEdin3 from "./assets/Kapllani Edin2.jpg";
+import PrelvukajZake1 from "./assets/Prelvukaj Zake1.jpg";
+import PrelvukajZake2 from "./assets/Prelvukaj Zake2.jpg";
+import PrelvukajZake3 from "./assets/Prelvukaj Zake3.jpg";
+import PrelvukajZake4 from "./assets/Prelvukaj Zake4.jpg";
+import PrelvukajZake5 from "./assets/Prelvukaj Zake5.jpg";
+import RijavecMasanovicRenata1 from "./assets/Rijavec Mašanović Renata1.jpg";
+import RijavecMasanovicRenata2 from "./assets/Rijavec Mašanović Renata2.jpg";
+import RijavecMasanovicRenata3 from "./assets/Rijavec Mašanović Renata3.jpg";
+
 function App() {
   const DjokajDjeljos = {
     title: "Đokaj Đeljoš",
@@ -138,8 +147,8 @@ function App() {
         image: KapllaniEdin2,
         text: (
           <span>
-            Kapllani Edin, bez naziva, ulje na platnu. <br /> Fotografisao: Arben
-            Çunmulaj
+            Kapllani Edin, bez naziva, ulje na platnu. <br /> Fotografisao:
+            Arben Çunmulaj
           </span>
         ),
       },
@@ -148,6 +157,114 @@ function App() {
         text: (
           <span>
             Kapllani Edin, bez naziva, kombinovana tehnika.
+            <br /> Fotografisao: Arben Çunmulaj
+          </span>
+        ),
+      },
+    ],
+  };
+  const PrelvukajZake = {
+    title: "Prelvukaj Zake",
+    paragraphs: [
+      "Prelvukaj Zake je rodena 1961. godine u Martinovićima (Martinaj), opština Gusinje.U dịetinjstvu porodica napušta Crnu Gorui odlazi u Prištinu Kosovo. Na Fakultetu umjetnosti DAE Odsjek slikarstvo, diplomirala je 1990 godine u klasi profesora Nusreta Salihamidžića. Magistrirala je 1997. godine slikarstvo u klasi profesora Muslima Mulićija. Radi na istom fakultetu kao redovni profesor na predmetu Monumentalno slikarstvo. Povremeno predaje na ljetnjim univerzitetima i kulturnim institucijama u zemlji i inostranstvu.",
+      "Pored umjetničkog stvaralaštva, bavi se likovnom kritikom, scenografijom i kostimografijom. Imala je 33 samostalne izložbe na Kosovu, Crnoj Gori, Albaniji, Srbiji, Makedoniji, Hrvatskoj, Njemačkoj, Austriji, Španiji, Belgiji, Velikoj Britaniji i Sjedinjenim Američkim Državama, a učestvovala je i na preko 100 grupnih, kolektivnih i izložbi po pozivu još u Bosni i Hercegovini, Mađarskoj, Francuskoj, Turskoj, Italiji, Švajcarskoj, Indiji i Japanu. Sa umjetničkim preduzećem „New Balkan”, realizovala je umjetničke projekte u zemlji i inostranstvu kao što su: freske, mozaici, murali, javna umjetnost, izložbe, debate... Bila je kustos nekoliko domaćih imeđunarodnih izložbi. Djela su joj zastupljena u muzejima i galerijama širom Evrope i u Nacionalnom muzeju žena u umjetnosti u Vašingtonu, jedinom te vrste u svijetu. Živi i radi u Prištini.",
+    ],
+    rewards: [
+      "Nagrada na „Međunarodnom bijenalu crtanja portreta” Tuzla, Bosna i Hercegovina, 2006.god.",
+      "Nagrada na nacionalnoj izložbi „Novembarska scena” Skoplje, Makedonija, 2005.god.",
+      "„Bijenale međunarodnog crtanja” - Nacionalna galerija Kosova, Priština, 2004.god.",
+    ],
+    criticism: [],
+    images: [
+      {
+        image: PrelvukajZake1,
+        text: (
+          <span>
+            Prelvukaj Zake, Sexbhitionkombinovana tehnika 2005.
+            <br /> Fotografisao: Arben Çunmulaj
+          </span>
+        ),
+      },
+      {
+        image: PrelvukajZake2,
+        text: (
+          <span>
+            Prelvukaj Zake, bez naziva, ulje na platnu.
+            <br /> Fotografisao: Arben Çunmulaj
+          </span>
+        ),
+      },
+      {
+        image: PrelvukajZake3,
+        text: (
+          <span>
+            Prelvukaj Zake, bez naziva, ulje na platnu.
+            <br /> Fotografisao: Arben Çunmulaj
+          </span>
+        ),
+      },
+      {
+        image: PrelvukajZake4,
+        text: (
+          <span>
+            Prelvukaj Zake, bez naziva, ulje na platnu.
+            <br /> Fotografisao: Arben Çunmulaj
+          </span>
+        ),
+      },
+      {
+        image: PrelvukajZake5,
+        text: (
+          <span>
+            Prelvukaj Zake, bez naziva, ulje na platnu.
+            <br /> Fotografisao: Arben Çunmulaj
+          </span>
+        ),
+      },
+    ],
+  };
+  const RijavecMasanovicRenata = {
+    title: "Rijavec Mašanović Renata",
+    paragraphs: [
+      "Rijavec Mašanović Renata je rodena 1970. godine u Zemnunu. Završila je školu za industrijsko oblikovanjeu Beogradu 1988. godine. Diplomirala je na Falkultetu primenjenih umetnosti i dizajna u Beogradu, na Odsjeku keramika i staklo, u klasi profesorke Mirjane Isaković 1996. godine. Clanica je Udruženja likovnih umetnika primenjenih umetnosti Srbije i Udruženja likovnih umjetnika Crne Gore.",
+      "U periodu 1992-1994. godine živjela je u Sloveniji gdje je učestvovala u više multimedijalnih projekata i pozorišnih predstava na kojima je radila specijalne efekte i scensku masku. Bavi se utilitarnom keramikom ikeramičkom skulpturom, ilustracijom, fotografijom, i grafičkim dizajnom.",
+      "Samostalno je izlagala utilitarnu keramiku i keramičke skulpture u galerijama u Crnoj Gori, Srbiji i Albaniji. Takode je izlagala keramiku, crteže i slike na kolektivnim izložbama u Srbiji, Crnoj Gori, Hrvatskoj, Sloveniji i Austriji. Vodi likovnu radionicu za djecu iz Ulcinja sa slikarkom Vahidom Hasanagić Nimanbegu.",
+      "Samostalna je umjetnica od 2002. godine. Živi i radi u Ulcinju.",
+    ],
+    rewards: [
+      "Prvo mjesto za slikarstvo u koloniji “Pro beach soocer 2007.god.",
+    ],
+    criticism: [
+      {
+        title: "Sanja Martinović pjesnikinja o djelima Renate",
+        description:
+          "..Djelo Renate Mašanović je prepoznatljivo, te bogato kvalitetima koje treba da ima snačujna unmjetnost. Autentičnost je prva i najsnačajnija karakteristika djela ulcinjske umjetnice. Njenu ribu cemo preposnati uvijek, njenu čemo poruku sa keramičke šolje prihvatiti ne bes smijeha i ne bes gorčine. Da, njen je humor sofisticiran i gorak. Baš onakar kakar mora i biti ako se radi o subversivnom umjetniku, odnosno umjetnici. Renata Mašanović to svakakojeste. Njene su tvorevine korisne, lijepe, duhovite i subversivne. Nikada nisu tek dobro i originalno napravljen predmet, već dobro i originalno napravljen predmet koji upire prstom u društvo i njegova nevesela gibanja. Njena je umjetnost „skromna”- na ruborima velikih tema. Njenje pogled onaj iskosa, a veliki mislioci današnjice vjeruju da je upravo taj pogled jedini autentičan ijedini koji može biti subversivan",
+      },
+    ],
+    images: [
+      {
+        image: RijavecMasanovicRenata1,
+        text: (
+          <span>
+            Rijavec Mašanović Renata, oeralizam kompozicija keramika.
+            <br /> Fotografisao: Arben Çunmulaj
+          </span>
+        ),
+      },
+      {
+        image: RijavecMasanovicRenata2,
+        text: (
+          <span>
+            Rijavec Mašanović Renata, oeralizam kompozicija keramika.
+            <br /> Fotografisao: Arben Çunmulaj
+          </span>
+        ),
+      },
+      {
+        image: RijavecMasanovicRenata3,
+        text: (
+          <span>
+            Rijavec Mašanović Renata, panica - keramika.
             <br /> Fotografisao: Arben Çunmulaj
           </span>
         ),
@@ -173,8 +290,14 @@ function App() {
             path="/kapllani_edin"
             element={<Painters data={KapllaniEdin} />}
           />
-          <Route path="/prelvukaj_zake" />
-          <Route path="/rijevac_masanovic_renata" />
+          <Route
+            path="/prelvukaj_zake"
+            element={<Painters data={PrelvukajZake} />}
+          />
+          <Route
+            path="/rijevac_masanovic_renata"
+            element={<Painters data={RijavecMasanovicRenata} />}
+          />
           <Route path="/kolja_berisaj" />
         </Routes>
       </div>
