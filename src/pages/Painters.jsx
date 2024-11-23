@@ -11,7 +11,7 @@ const Painters = ({ data }) => {
           </p>
         ))}
       </div>
-      <div className="mt-12 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-2">
+      <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-2">
         {data.images.map((image, index) => (
           <div
             key={index}

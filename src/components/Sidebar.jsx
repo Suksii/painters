@@ -9,6 +9,7 @@ const Sidebar = () => {
     { name: "Đokaj Đeljoš", link: "/djokaj_djeljos" },
     { name: "Gjokaj Agron", link: "/gjokaj_agron" },
     { name: "Kapllani Edin", link: "/kapllani_edin" },
+    { name: "Nimanbegu Hasanaga Vahida", link: "/nimanbegu_hasanaga_vahida" },
     { name: "Prelvukaj Zake", link: "/prelvukaj_zake" },
     { name: "Rijevac Mašanovic Renata", link: "/rijevac_masanovic_renata" },
     { name: "Kolja Berišaj", link: "/kolja_berisaj" },

@@ -16,6 +16,9 @@ import GjokajAgron3 from "./assets/Gjokaj Agron1.jpg";
 import KapllaniEdin1 from "./assets/Kapllani Edin.jpg";
 import KapllaniEdin2 from "./assets/Kapllani Edin1.jpg";
 import KapllaniEdin3 from "./assets/Kapllani Edin2.jpg";
+import NimanbeguHasanagaVahida1 from "./assets/Nimanbegu Hasanaga Vahida1.jpg";
+import NimanbeguHasanagaVahida2 from "./assets/Nimanbegu Hasanaga Vahida2.jpg";
+import NimanbeguHasanagaVahida3 from "./assets/Nimanbegu Hasanaga Vahida3.jpg";
 import PrelvukajZake1 from "./assets/Prelvukaj Zake1.jpg";
 import PrelvukajZake2 from "./assets/Prelvukaj Zake2.jpg";
 import PrelvukajZake3 from "./assets/Prelvukaj Zake3.jpg";
@@ -26,6 +29,7 @@ import RijavecMasanovicRenata2 from "./assets/Rijavec Mašanović Renata2.jpg";
 import RijavecMasanovicRenata3 from "./assets/Rijavec Mašanović Renata3.jpg";
 import KoljaBerisaj1 from "./assets/Kolja Berišaj1.jpg";
 import KoljaBerisaj2 from "./assets/Kolja Berišaj2.jpg";
+import KoljaBerisaj3 from "./assets/Kolja Berišaj3.jpg";
 
 function App() {
   const DjokajDjeljos = {
@@ -168,6 +172,60 @@ function App() {
       },
     ],
   };
+  const NimanbeguHasanagaVahida = {
+    title: "Nimanbegu Hasanaga Vahida ",
+    paragraphs: [
+      "Nimanbegu Hasanaga Vahida je rodena 1973. godine u Baru. Diplomirani aranżer postala je 1994. godine na Višoj školi likovnih i primijenjenih umjetnosti u Beogradu. Dvije godine kasnije stekla je i diplomu nastavnika likovnog na istom fakultetu. Na Fakultetu primenjenih umetnosti u Beogradu, Odsjek zidno slikarstvo, diplomirala je 2002. godine.Član je Udruženja likovnih umjetnika Crne Gore od 2009. godine.",
+      "Inspirisana Mediteranom, prostorima odrastanja i življenja, umjetnica radi asocijativne i apstraktne slike reljefne fakture. Intimističko i lirsko slikarstvo Vahide Hasanaga Nimanbegu karakteriše skladan kolorit. Imala je 24 samostalne izložbe u Crnoj Gori, Kosovu, Srbiji, Albaniji, Makedoniji, Hrvatskoj, Bosni i Hercegovini, Izraelu, Sjedinjenim Američkim Državama, Njemačkoj i Švajcarskoj. Od 2007. godine izlaže sa umjetničkom grupom „REON” na šest izložbi u Crnoj Gori, Srbiji, Sloveniji i Sjedinjenim Američkim Državama.",
+      "Osnivač je NVO „Art Dulcinium” i autorka nekoliko projekata koji su povezivali i okupljali mlade umjetnike iz bivših jugoslovenskih republika. Na brojnim kolonijama i projektima okupljala je umjetnike iz regiona, zapadnoevropskih I zemalja sa kojima se graničimo, kao i albanske umjetnike koji žive u različitim balkanskim državama. Najbrojnija kolonija bila je 2017. godine na kojoj Su učestvovali umjetnici iz Evrope, Južne i Sjeverne Amerike, Afrike i Kine. Sa tom organizacijom imala je više izložbi kod nas i u Srbiji, Rumuniji, Albaniji, Spaniji i Sloveniji.",
+      "Izlagala je na 70 kolektivnih izložbi u domovini, Albaniji, Kosovu, Srbiji, Bosni i Hercegovini, Austriji, Italiji, Spaniji, Rumuniji, Francuskoj, Mađarskoj, Hrvatskoj i Sjedinjenim Američkim Državama. Boravila je na 15 likovnih simpozijuma, kolonija i radionica u Španiji, Italiji, Rumuniji, Madarskoj, Austriji, Makedoniji, Albaniji,Turskoj i Sjedinjenim Američkim Državama.",
+      "U Ulcinju od 2004. godine drži likovne radionice za djecu i organizuje im izložbe.",
+    ],
+    rewards: [
+      "Nagrada za sliku Gnjilanskog jesenjeg salona, Gnjilane, 2015.god.",
+      "Godišnje priznanje za rad TV Teuta Ulcinj, 2013.god.",
+      "Godišnja nagrada za sliku, “Draudacum”, Gostivar, 2010.god.",
+      "Nagrada Milunović, Stijović, Lubarda” Udruženia likovnih umjetnika Crne Gore, 2009.god.",
+      "Nagrada zemunskog Salona za sliku, Zemun, 2008.god.",
+    ],
+    criticism: [
+      {
+        title:
+          "Dr Anastasija Miranović likovna kritičarka o stvaralaštvu Vahide Nimanbegu",
+        description:
+          "Ujednačeni kompozicioni sklad u radovima Vahide Nimanbegu, naisgled sluõjni ritmičko-dinamički odnosi, navode na rasmišljanje da je sve gotovo spontano nastalo. Upravoje suprotno. Promišljeni i izbalansirani likovni elementi djela čine konstrukt slike otvorenim poljem osmišljenih intervencija. Ove slike pričaju priču amalgamiranih iskustava, sagu nasljeda, rodne semlje, obale, obližnjih vrtova i dardina i sve su te priče, kao pačvorci tkanina povesane „šavovima” videnog (unutarnjeg oka ), u nadovesijućem smislenom slijedu, tvoreći specifičan „ ćilim sjećanja, proživljenog, naslućenog, šeljenog. Vahida to radi jednostavnin, pikturalnim jezikom, wnim geometrijskim formama u akcentima kgje multiplikuje - kvadrat, pravougaonik, krug. Corjek nije neophodan u bukralnom fguralnom prikazu, jer je opšte prisutan u svakom potesu kičice, reljefno naglašene fakure ili pak manje intensivnom egsekutivnom naboju. Simbolika sašimanja provocira kontekstualisaciju dva srijeta - prirode oko nas i one u nama, sujetova koji kohabiiraju ujedinstuenin koloritnin senzacijama, zamamno isbalansirane energetske potencije. Vedro i živono, zagonetno i intrigantno, lirsko i intimisticko, slikarsvo Vahide Nimanbegu yjeruje u sinhronisaciju/sublimaciju životnih sokova kros jedinstvo rasličitosti - umjetnosti i kultura ondašnjih prostora, ljepote krajolika fisichih pejzaža, ali i onih mentalnih što kros simbol progovaraju u vidljivom.",
+      },
+    ],
+    images: [
+      {
+        image: NimanbeguHasanagaVahida1,
+        text: (
+          <span>
+            Nimanbegu Hasanaga Vahida, bez naziva, akralik na platnu.
+            <br /> Fotografisao: Arben Çunmulaj
+          </span>
+        ),
+      },
+      {
+        image: NimanbeguHasanagaVahida2,
+        text: (
+          <span>
+            Nimanbegu Hasanaga Vahida, bez naziva, akrilik na platnu. <br />
+            Fotografisao: Arben Çunmulaj
+          </span>
+        ),
+      },
+      {
+        image: NimanbeguHasanagaVahida3,
+        text: (
+          <span>
+            Kapllani Edin, bez naziva, kombinovana tehnika.
+            <br /> Fotografisao: Arben Çunmulaj
+          </span>
+        ),
+      },
+    ],
+  };
   const PrelvukajZake = {
     title: "Prelvukaj Zake",
     paragraphs: [
@@ -295,7 +353,7 @@ function App() {
         </span>
         <br />
         <span className="flex items-center gap-2">
-          <IoMailSharp size={24}/>
+          <IoMailSharp size={24} />
           kolja.berisaj@gmail.com
         </span>
       </span>,
@@ -308,7 +366,13 @@ function App() {
         text: (
           <span>
             Kolja Berišaj, bez naziva.
-            <br /> Izvor: https://www.ulucg.me/
+            <br /> Izvor:{" "}
+            <a
+              href="https://www.ulucg.me/"
+              className="hover:text-blue-600 duration-200 underline underline-offset-2"
+            >
+              https://www.ulucg.me/
+            </a>
           </span>
         ),
       },
@@ -317,7 +381,28 @@ function App() {
         text: (
           <span>
             Kolja Berišaj, bez naziva.
-            <br /> Izvor: https://www.ulucg.me/
+            <br /> Izvor:{" "}
+            <a
+              href="https://www.ulucg.me/"
+              className="hover:text-blue-600 duration-200 underline underline-offset-2"
+            >
+              https://www.ulucg.me/
+            </a>
+          </span>
+        ),
+      },
+      {
+        image: KoljaBerisaj3,
+        text: (
+          <span>
+            Kolja Berišaj, bez naziva.
+            <br /> Izvor:{" "}
+            <a
+              href="https://www.ulucg.me/"
+              className="hover:text-blue-600 duration-200 underline underline-offset-2"
+            >
+              https://www.ulucg.me/
+            </a>
           </span>
         ),
       },
@@ -341,6 +426,10 @@ function App() {
           <Route
             path="/kapllani_edin"
             element={<Painters data={KapllaniEdin} />}
+          />
+          <Route
+            path="/nimanbegu_hasanaga_vahida"
+            element={<Painters data={NimanbeguHasanagaVahida} />}
           />
           <Route
             path="/prelvukaj_zake"
