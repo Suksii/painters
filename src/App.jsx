@@ -31,6 +31,7 @@ import KoljaBerisaj1 from "./assets/Kolja Berišaj1.jpg";
 import KoljaBerisaj2 from "./assets/Kolja Berišaj2.jpg";
 import KoljaBerisaj3 from "./assets/Kolja Berišaj3.jpg";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   const DjokajDjeljos = {
@@ -415,7 +416,7 @@ function App() {
       <Sidebar />
       <div className="container mx-auto px-8">
         <Header />
-        <hr className="pb-8"/>
+        <hr className="pb-8" />
         <Routes>
           <Route path="/" element={<MainPage />} gridCols={"grid-cols-4"} />
           <Route
@@ -457,6 +458,7 @@ function App() {
             element={<Painters data={KoljaBerisaj} gridCols={"grid-cols-3"} />}
           />
         </Routes>
+        <Footer />
       </div>
     </div>
   );
