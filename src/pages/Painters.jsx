@@ -1,12 +1,8 @@
-
-
-const Painters = ({data}) => {
-  
-
+const Painters = ({ data }) => {
   return (
     <>
       <h1 className="text-4xl font-bold text-center text-gray-900 mb-8">
-        Đokaj Đeljoš
+        {data.title}
       </h1>
       <div className="space-y-8">
         {data.paragraphs.map((paragraph, index) => (
