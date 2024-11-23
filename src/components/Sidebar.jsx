@@ -15,6 +15,10 @@ const Sidebar = () => {
     { name: "Kolja Berišaj", link: "/kolja_berisaj" },
   ];
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0 });
+  };
+
   return (
     <>
       <button
@@ -35,7 +39,10 @@ const Sidebar = () => {
           {painters.map((painter, index) => (
             <Link
               to={painter.link}
-              onClick={() => setIsOpen(false)}
+              onClick={() => {
+                scrollToTop();
+                setIsOpen(false);
+              }}
               key={index}
               className="w-full block px-6 py-4 hover:bg-gray-700 transition duration-300"
             >
@@ -48,7 +55,10 @@ const Sidebar = () => {
         <Link
           to="/"
           className="text-center bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3 m-4 rounded-lg transition duration-300"
-          onClick={() => setIsOpen(false)}
+          onClick={() => {
+            scrollToTop();
+            setIsOpen(false);
+          }}
         >
           Početna
         </Link>

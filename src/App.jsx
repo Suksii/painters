@@ -345,7 +345,6 @@ function App() {
           <FaLocationDot size={24} />
           140 North Broadway, Irvington, New York 10533
         </span>
-
         <br />
         <span className="flex items-center gap-2">
           <BsFillTelephoneFill />
