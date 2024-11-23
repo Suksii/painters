@@ -2,6 +2,9 @@ import "./App.css";
 import Sidebar from "./components/Sidebar";
 import MainPage from "./pages/MainPage";
 import { Routes, Route } from "react-router-dom";
+import { FaLocationDot } from "react-icons/fa6";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { IoMailSharp } from "react-icons/io5";
 import Painters from "./pages/Painters";
 import DjokajDjeljos1 from "./assets/Đokaj Đeljoš.jpg";
 import DjokajDjeljos2 from "./assets/Đokaj Đeljoš1.jpg";
@@ -21,6 +24,8 @@ import PrelvukajZake5 from "./assets/Prelvukaj Zake5.jpg";
 import RijavecMasanovicRenata1 from "./assets/Rijavec Mašanović Renata1.jpg";
 import RijavecMasanovicRenata2 from "./assets/Rijavec Mašanović Renata2.jpg";
 import RijavecMasanovicRenata3 from "./assets/Rijavec Mašanović Renata3.jpg";
+import KoljaBerisaj1 from "./assets/Kolja Berišaj1.jpg";
+import KoljaBerisaj2 from "./assets/Kolja Berišaj2.jpg";
 
 function App() {
   const DjokajDjeljos = {
@@ -271,6 +276,53 @@ function App() {
       },
     ],
   };
+  const KoljaBerisaj = {
+    title: "Kolja Berišaj",
+    paragraphs: [
+      "Kolja Berišaj rođen je 1955. u Šipčaniku, Tuzi, Podgorica, Crna Gora. Akademiju umjetnosti za slikarstvo, završio je u Prištini 1979. godine u klasi akademika Rexhep Ferri. Od 1985. živi i radi u SAD. Bavi se slikarstvom i umjetničkim projektima i art dizajnom. Veliki broj njegovih slika se nalaze u privatnim kolekcijama. Izlaže na grupnim izlozbama u Njujorku. Član je ULUCG-a od 1982. godine.",
+      <span>
+        <span className="flex items-center gap-2">
+          <FaLocationDot size={24} />
+          140 North Broadway, Irvington, New York 10533
+        </span>
+
+        <br />
+        <span className="flex items-center gap-2">
+          <BsFillTelephoneFill />
+          <span>Home: 001-914-478-0623</span>
+          <br />
+          <span>Mobile: 001-914-393-1907</span>
+        </span>
+        <br />
+        <span className="flex items-center gap-2">
+          <IoMailSharp size={24}/>
+          kolja.berisaj@gmail.com
+        </span>
+      </span>,
+    ],
+    rewards: [],
+    criticism: [],
+    images: [
+      {
+        image: KoljaBerisaj1,
+        text: (
+          <span>
+            Kolja Berišaj, bez naziva.
+            <br /> Izvor: https://www.ulucg.me/
+          </span>
+        ),
+      },
+      {
+        image: KoljaBerisaj2,
+        text: (
+          <span>
+            Kolja Berišaj, bez naziva.
+            <br /> Izvor: https://www.ulucg.me/
+          </span>
+        ),
+      },
+    ],
+  };
 
   return (
     <div className="flex min-h-screen">
@@ -298,7 +350,10 @@ function App() {
             path="/rijevac_masanovic_renata"
             element={<Painters data={RijavecMasanovicRenata} />}
           />
-          <Route path="/kolja_berisaj" />
+          <Route
+            path="/kolja_berisaj"
+            element={<Painters data={KoljaBerisaj} />}
+          />
         </Routes>
       </div>
     </div>
