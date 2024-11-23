@@ -1,4 +1,4 @@
-const Painters = ({ data }) => {
+const Painters = ({ data, gridCols }) => {
   return (
     <>
       <h1 className="text-4xl font-bold text-center text-gray-900 mb-8">
@@ -11,7 +11,9 @@ const Painters = ({ data }) => {
           </p>
         ))}
       </div>
-      <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-2">
+      <div
+        className={`mt-12 grid grid-cols-1 lg:grid-cols-2 xl:${gridCols} gap-2`}
+      >
         {data.images.map((image, index) => (
           <div
             key={index}
