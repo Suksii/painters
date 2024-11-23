@@ -10,13 +10,15 @@ import DjokajDjeljos4 from "./assets/Đokaj Đeljoš3.jpg";
 import GjokajAgron1 from "./assets/GjokajAgron.jpg";
 import GjokajAgron2 from "./assets/Gjokaj Agron.jpg";
 import GjokajAgron3 from "./assets/Gjokaj Agron1.jpg";
-
+import KapllaniEdin1 from "./assets/Kapllani Edin.jpg";
+import KapllaniEdin2 from "./assets/Kapllani Edin1.jpg";
+import KapllaniEdin3 from "./assets/Kapllani Edin2.jpg";
 function App() {
   const DjokajDjeljos = {
     title: "Đokaj Đeljoš",
     paragraphs: [
       "Đokaj Đeljoš (Gjokaj Gjelosh) je roden 1933. godine u selu Milješ, nadomak Podgorice. Nakon rata 1946. godine, sa porodicom napušta Crnu Goru i odlazi u Zmajevo, u Vojvodini. Bez završene srednje škole, kao poseban talenat, u Beogradu upisuje Akademiju likovnih umetnosti, Odsjek slikarstvo, u klasi profesora Mila Milunovića, Stojana Celiča i Mladena Srbinovića. Diplomirao je 1963. godine u klasi profesora Boška Karanovića. Magistrirao je specijalni tečaj za grafiku 1966. godine na istoj akademiji.",
-      "U periodu 1964/68. radi kao profesor umjetnosti/šef katedre na Višoj pedagoškoj školi u Prištini, gdje je bio i jedan od inicijatora osnivanja Fakulteta umjetnosti. Nastanjuje se u Rimu 1969.godine i intenzivno izlaže u više italijanskih gradova. Izložbe su naišle na pozitivne ocjene i komentare italijanskih likovnih kritičara. Privukao ih je njegov autentični likovni izraz - „nova metafizika'' inspirisana specifičnim kulturno-istorijskim nasljeđem rodnog kraja i balkanskog prostora.",
+      "U periodu 1964/68. radi kao profesor umjetnosti/šef katedre na Višoj pedagoškoj školi u Prištini, gdje je bio i jedan od inicijatora osnivanja Fakulteta umjetnosti. Nastanjuje se u Rimu 1969.godine i intenzivno izlaže u više italijanskih gradova. Izložbe su naišle na pozitivne ocjene i komentare italijanskih likovnih kritičara. Privukao ih je njegov autentični likovni izraz - „nova metafizika” inspirisana specifičnim kulturno-istorijskim nasljeđem rodnog kraja i balkanskog prostora.",
       "U Rimu je otvorio grafičku radionicu koja je bila cijenjena po visokom kvalitetu štampe. Na vrhuncu slave, 1983/84. odlazi iz Rima i nastanjuje se u Augzburgu, u Njemačkoj. Kao umjetnik koji je stekao međunarodnu reputaciju, angažovan je kao profesor na Fakultetu likovnih umjetnosti na Cetinju, gdje je predavao na Odsjeku grafika od osnivanja 1988. do 1992. godine.",
       "Za života Đeljoš Đokaj je imao oko 70 samostalnih izložbi u Crnoj Gori, Srbiji, Kosovu, Sjevernoj Makedoniji, Albaniji, Italiji, Njemačkoj, Holandiji, Sjedinjenim Američkim Državama. Kao istaknuti grafičar i slikar predstavljao je Jugoslaviju I Italiju na preko 150 kolektivnih, selektovanih i izložbi po pozivu širom Evrope, Latinske Amerike, Indije, Afrike i Australije.",
       "Bio je član Dukljanske akademije nauka i umjetnosti, Akademije nauka, kniiževnosti i umjetnosti u Palermu, Akademije nauka i umjetnosti Kosova, Udruženia likovnih umjetnika Crne Gore i Udruženja likovnih umjetnika Srbije.",
@@ -112,6 +114,46 @@ function App() {
       },
     ],
   };
+  const KapllaniEdin = {
+    title: "Kapllani Edin",
+    paragraphs: [
+      "Kapllani Edin je roden 1980. godine u Baru. Diplomirao je na Fakultetu likovnih umjetnosti u Prištini u klasi profesora Redžepa Ferrija 2004. god. Član je Udruženja likovnih umjetnika Crne Gore od 2010. godine. Kapllani radi asocijativne i apstraktne radove izuzetnim koloritom nadahnute morem, životom i atmosferom Mediterana. Imao je l3 samostalnih izložbi u Crnj Gori, Albaniji, Srbiji i Švajcarskoj.",
+      "Učestvovao je na preko 200 kolektivnih izložbi u zemlji i inostranstvu. Živi i radi u Ulcinju.",
+    ],
+    rewards: [
+      "Prvo mjesto za slikarstvo u koloniji “Pro beach soocer 2007.god.",
+    ],
+    criticism: [],
+    images: [
+      {
+        image: KapllaniEdin1,
+        text: (
+          <span>
+            Kapllani Edin, bez naziva, kombinovana tehnika.
+            <br /> Fotografisao: Arben Çunmulaj
+          </span>
+        ),
+      },
+      {
+        image: KapllaniEdin2,
+        text: (
+          <span>
+            Kapllani Edin, bez naziva, ulje na platnu. <br /> Fotografisao: Arben
+            Çunmulaj
+          </span>
+        ),
+      },
+      {
+        image: KapllaniEdin3,
+        text: (
+          <span>
+            Kapllani Edin, bez naziva, kombinovana tehnika.
+            <br /> Fotografisao: Arben Çunmulaj
+          </span>
+        ),
+      },
+    ],
+  };
 
   return (
     <div className="flex min-h-screen">
@@ -127,7 +169,10 @@ function App() {
             path="/gjokaj_agron"
             element={<Painters data={GjokajAgron} />}
           />
-          <Route path="/kapllani_edin" />
+          <Route
+            path="/kapllani_edin"
+            element={<Painters data={KapllaniEdin} />}
+          />
           <Route path="/prelvukaj_zake" />
           <Route path="/rijevac_masanovic_renata" />
           <Route path="/kolja_berisaj" />
