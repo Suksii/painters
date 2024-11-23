@@ -30,6 +30,7 @@ import RijavecMasanovicRenata3 from "./assets/Rijavec Mašanović Renata3.jpg";
 import KoljaBerisaj1 from "./assets/Kolja Berišaj1.jpg";
 import KoljaBerisaj2 from "./assets/Kolja Berišaj2.jpg";
 import KoljaBerisaj3 from "./assets/Kolja Berišaj3.jpg";
+import Header from "./components/Header";
 
 function App() {
   const DjokajDjeljos = {
@@ -412,26 +413,22 @@ function App() {
   return (
     <div className="flex min-h-screen">
       <Sidebar />
-      <div className="container mx-auto p-8">
+      <div className="container mx-auto px-8">
+        <Header />
+        <hr className="pb-8"/>
         <Routes>
           <Route path="/" element={<MainPage />} gridCols={"grid-cols-4"} />
           <Route
             path="/djokaj_djeljos"
-            element={
-              <Painters data={DjokajDjeljos} gridCols={"grid-cols-4"} />
-            }
+            element={<Painters data={DjokajDjeljos} gridCols={"grid-cols-4"} />}
           />
           <Route
             path="/gjokaj_agron"
-            element={
-              <Painters data={GjokajAgron} gridCols={"grid-cols-3"} />
-            }
+            element={<Painters data={GjokajAgron} gridCols={"grid-cols-3"} />}
           />
           <Route
             path="/kapllani_edin"
-            element={
-              <Painters data={KapllaniEdin} gridCols={"grid-cols-3"} />
-            }
+            element={<Painters data={KapllaniEdin} gridCols={"grid-cols-3"} />}
           />
           <Route
             path="/nimanbegu_hasanaga_vahida"
@@ -444,9 +441,7 @@ function App() {
           />
           <Route
             path="/prelvukaj_zake"
-            element={
-              <Painters data={PrelvukajZake} gridCols={"grid-cols-3"} />
-            }
+            element={<Painters data={PrelvukajZake} gridCols={"grid-cols-3"} />}
           />
           <Route
             path="/rijevac_masanovic_renata"
@@ -459,9 +454,7 @@ function App() {
           />
           <Route
             path="/kolja_berisaj"
-            element={
-              <Painters data={KoljaBerisaj} gridCols={"grid-cols-3"} />
-            }
+            element={<Painters data={KoljaBerisaj} gridCols={"grid-cols-3"} />}
           />
         </Routes>
       </div>
