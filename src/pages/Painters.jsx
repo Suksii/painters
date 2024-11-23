@@ -42,6 +42,22 @@ const Painters = ({ data, gridCols }) => {
           </div>
         ))}
       </section>
+      <section className="mt-12">
+        {data.criticism.map((critique, index) => (
+          <div
+            key={index}
+            className="p-6 border border-gray-300 rounded-lg shadow-md relative"
+          >
+            <div className="absolute inset-y-0 left-0 w-1.5 bg-gray-800 rounded-l-lg"></div>
+            <h3 className="text-2xl font-semibold text-gray-900 underline decoration-gray-400 mb-4">
+              {critique.title}
+            </h3>
+            <p className="text-gray-700 leading-relaxed italic text-xl">
+              {critique.description}
+            </p>
+          </div>
+        ))}
+      </section>
     </>
   );
 };
