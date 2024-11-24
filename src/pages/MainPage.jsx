@@ -11,6 +11,39 @@ const MainPage = () => {
     "Mladi umjetnici često sarađuju sa različitim umetničkim kolektivima i učestvuju na radionicama, što im omogućava da se povežu sa širim okruženjem i razmenjuju ideje. U Crnoj Gori postoji i nekoliko umetničkih manifestacija i festivala koji promovišu rad mladih umetnika, a neki od njih su i međunarodni, što dodatno doprinosi vidljivosti albanskih umetnika iz ovog regiona. U nastavku slijedete detaljniji podaci o izabranim umjetnicima kao I njihova djela koja dominiraju a gdje je ujedno I izvršena selekcija najboljih radova. ",
   ];
 
+  const istaknuteVrijednosti = {
+    title: "Istaknute vrijednosti kod albanskih umjetnika",
+    intro:
+      "Vrijednost umjetnika slikara albanske nacionalnosti može se sagledati iz više perspektiva. Njihov doprinos umjetnosti često obuhvata:",
+    list: [
+      {
+        title: "Kulturni identitet",
+        description:
+          "Mnogi albanski umjetnici koriste svoje radove kako bi istraživali i izražavali teme identiteta, tradicije i kulturnog nasljeđa. Kroz svoje slike, oni otvaraju dijalog o kulturi i identitetu, što može obogatiti širu umjetničku scenu.",
+      },
+      {
+        title: "Savremeni pristupi",
+        description:
+          "Mnogi mladi albanski umjetnici usvajaju moderne tehnike i stilove, što doprinosi inovaciji unutar savremene umjetnosti. Njihova sposobnost kombinovanja tradicionalnih i modernih elemenata čini njihove radove jedinstvenima i relevantnima.",
+      },
+      {
+        title: "Društveni komentari",
+        description:
+          "Umjetnici često koriste svoje radove da komentarišu društvene i političke teme, posebno one koje su relevantne za albansku zajednicu. Ovi radovi mogu poslužiti kao sredstvo za podizanje svijesti o važnim pitanjima.",
+      },
+      {
+        title: "Izložbe i međunarodna prisutnost",
+        description:
+          "Mnogi albanski umjetnici izlažu na domaćim i međunarodnim izložbama, čime stiču reputaciju i prepoznatljivost u širem umjetničkom kontekstu. Učešće na umjetničkim manifestacijama omogućava im da predstavljaju svoju kulturu i doprinose globalnom dijalogu o umjetnosti.",
+      },
+      {
+        title: "Inspiracija za mlade generacije",
+        description:
+          "Kroz svoj rad i uspjehe, ovi umjetnici postaju inspiracija mladim talentima, potičući ih da istražuju svoje vlastite kreativne puteve. Sve ove dimenzije doprinose sve većoj vrijednosti i prepoznatljivosti albanskih slikara u savremenom umjetničkom svijetu.",
+      },
+    ],
+  };
+
   return (
     <>
       <h1 className="text-center text-4xl font-bold mb-8 text-gray-800">
