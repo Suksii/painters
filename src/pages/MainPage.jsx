@@ -1,5 +1,12 @@
 import React from "react";
 import GjokajAgron from "../assets/GjokajAgron.jpg";
+import {
+  FaCommentDots,
+  FaGlobe,
+  FaLightbulb,
+  FaPalette,
+  FaUsers,
+} from "react-icons/fa6";
 
 const MainPage = () => {
   const paragraphs = [
@@ -11,7 +18,7 @@ const MainPage = () => {
     "Mladi umjetnici često sarađuju sa različitim umetničkim kolektivima i učestvuju na radionicama, što im omogućava da se povežu sa širim okruženjem i razmenjuju ideje. U Crnoj Gori postoji i nekoliko umetničkih manifestacija i festivala koji promovišu rad mladih umetnika, a neki od njih su i međunarodni, što dodatno doprinosi vidljivosti albanskih umetnika iz ovog regiona. U nastavku slijedete detaljniji podaci o izabranim umjetnicima kao I njihova djela koja dominiraju a gdje je ujedno I izvršena selekcija najboljih radova. ",
   ];
 
-  const istaknuteVrijednosti = {
+  const prominentValues = {
     title: "Istaknute vrijednosti kod albanskih umjetnika",
     intro:
       "Vrijednost umjetnika slikara albanske nacionalnosti može se sagledati iz više perspektiva. Njihov doprinos umjetnosti često obuhvata:",
@@ -44,13 +51,25 @@ const MainPage = () => {
     ],
   };
 
+  const iconMap = {
+    "Kulturni identitet": <FaPalette className="text-4xl text-indigo-600" />,
+    "Savremeni pristupi": <FaLightbulb className="text-4xl text-yellow-500" />,
+    "Društveni komentari": <FaCommentDots className="text-4xl text-red-500" />,
+    "Izložbe i međunarodna prisutnost": (
+      <FaGlobe className="text-4xl text-green-500" />
+    ),
+    "Inspiracija za mlade generacije": (
+      <FaUsers className="text-4xl text-blue-500" />
+    ),
+  };
+
   return (
     <>
-      <h1 className="text-center text-4xl font-bold mb-8 text-gray-800">
+      <h1 className="text-center text-4xl font-bold mb-8 text-gray-800 underline decoration-indigo-500">
         Albanski slikari
       </h1>
 
-      <div className="flex flex-col-reverse xl:flex-row items-center mb-8 gap-6">
+      <section className="flex flex-col-reverse xl:flex-row items-center mb-8 gap-6">
         <img
           src={GjokajAgron}
           alt="Gjokaj Agron"
@@ -64,9 +83,9 @@ const MainPage = () => {
             {paragraphs[1]}
           </p>
         </div>
-      </div>
+      </section>
 
-      <div className="space-y-6">
+      <section className="space-y-6">
         {paragraphs.slice(2).map((paragraph, index) => (
           <p
             key={index}
@@ -75,7 +94,34 @@ const MainPage = () => {
             {paragraph}
           </p>
         ))}
-      </div>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-3xl font-extrabold text-gray-800 mb-8 text-center">
+          {prominentValues.title}
+        </h2>
+        <p className="text-xl text-gray-700 leading-relaxed w-42 pb-8">
+          {prominentValues.intro}
+        </p>
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
+          {prominentValues.list.map((item, index) => (
+            <div
+              key={index}
+              className="p-6 rounded-xl shadow-xl"
+            >
+              <div className="flex items-center gap-4 mb-4">
+                {iconMap[item.title]}
+                <h3 className="text-2xl font-bold text-gray-800">
+                  {item.title}
+                </h3>
+              </div>
+              <p className="text-gray-700 text-lg leading-relaxed">
+                {item.description}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
     </>
   );
 };
