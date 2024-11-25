@@ -43,7 +43,7 @@ const Painters = ({ data, gridCols }) => {
       </section>
 
       {selectedImageIndex !== null && (
-        <div className="fixed inset-0 bg-black bg-opacity-90 z-50 flex justify-center items-center overflow-hidden">
+        <div className="fixed inset-0 bg-black z-50 flex justify-center items-center overflow-hidden">
           <IoClose
             size={32}
             className="fixed top-4 right-4 text-gray-50 cursor-pointer z-50"
@@ -67,13 +67,19 @@ const Painters = ({ data, gridCols }) => {
               }}
             >
               {data.images.map((image, index) => (
-                <img
+                <div
                   key={index}
-                  src={image.image}
-                  alt={`${data.title} ${index + 1} Fullscreen`}
-                  className="w-full h-auto max-h-[90vh] object-contain flex-shrink-0"
-                  style={{ width: "100vw" }}
-                />
+                  className="relative w-full h-auto max-h-[90vh] flex-shrink-0"
+                >
+                  <img
+                    src={image.image}
+                    alt={`${data.title} ${index + 1} Fullscreen`}
+                    className="object-contain w-full h-full"
+                  />
+                  <p className="absolute bottom-0 left-0 w-full mx-auto px-4 py-2 bg-black bg-opacity-90 text-gray-50 font-semibold text-center">
+                    {image.text}
+                  </p>
+                </div>
               ))}
             </div>
           </div>
