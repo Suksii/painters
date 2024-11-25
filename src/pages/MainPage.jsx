@@ -105,10 +105,7 @@ const MainPage = () => {
         </p>
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
           {prominentValues.list.map((item, index) => (
-            <div
-              key={index}
-              className="p-6 rounded-xl shadow-xl"
-            >
+            <div key={index} className="p-6 rounded-xl shadow-xl">
               <div className="flex items-center gap-4 mb-4">
                 {iconMap[item.title]}
                 <h3 className="text-2xl font-bold text-gray-800">

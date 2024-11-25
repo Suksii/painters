@@ -1,4 +1,9 @@
+import { useState } from "react";
+import { IoClose } from "react-icons/io5";
+
 const Painters = ({ data, gridCols }) => {
+  const [selectedImage, setSelectedImage] = useState(true);
+
   return (
     <>
       <h1 className="text-4xl font-bold text-center text-gray-900 mb-8">
@@ -42,6 +47,21 @@ const Painters = ({ data, gridCols }) => {
           </div>
         ))}
       </section>
+      {selectedImage && (
+        <div className="fixed w-[100vw] h-screen inset-0 bg-black bg-opacity-90 z-50 flex justify-center items-center">
+          <IoClose
+            size={32}
+            className="fixed top-0 right-0 m-4 text-gray-50 cursor-pointer"
+            onClick={() => setSelectedImage(false)}
+          />
+          {
+            <img
+              src={data.images[0].image}
+              className="w-[300px] h-2/3 mx-auto object-cover"
+            />
+          }
+        </div>
+      )}
       <section className="mt-12">
         {data.criticism.map((critique, index) => (
           <div
