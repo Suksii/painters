@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const path = useLocation().pathname;
 
   const painters = [
     { name: "Đokaj Đeljoš", link: "/djokaj_djeljos" },
@@ -44,7 +45,9 @@ const Sidebar = () => {
                 setIsOpen(false);
               }}
               key={index}
-              className="w-full block px-6 py-4 hover:bg-gray-700 transition duration-300"
+              className={`w-full block px-6 py-4 hover:bg-gray-700 transition duration-300 ${
+                path === painter.link ? "bg-gray-700" : ""
+              }`}
             >
               <p className="text-lg text-gray-100 font-medium">
                 {painter.name}
