@@ -49,6 +49,8 @@ const MainPage = () => {
           "Kroz svoj rad i uspjehe, ovi umjetnici postaju inspiracija mladim talentima, potičući ih da istražuju svoje vlastite kreativne puteve. Sve ove dimenzije doprinose sve većoj vrijednosti i prepoznatljivosti albanskih slikara u savremenom umjetničkom svijetu.",
       },
     ],
+    textEditor: "Amina Drešević",
+    publishedAt: "7. oktobar 2024.",
   };
 
   const iconMap = {
@@ -117,6 +119,16 @@ const MainPage = () => {
               </p>
             </div>
           ))}
+        </div>
+        <div className="flex flex-col leading-5 text-gray-800 pt-3">
+          <h3 className="flex gap-2 justify-end items-end">
+            Urednik teksta:
+            <span className="font-semibold">{prominentValues.textEditor}</span>
+          </h3>
+          <h3 className="leading-5 flex gap-2 justify-end items-end">
+            Objavljeno:
+            <span className="font-semibold">{prominentValues.publishedAt}</span>
+          </h3>
         </div>
       </section>
     </>

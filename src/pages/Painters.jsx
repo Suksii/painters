@@ -40,10 +40,16 @@ const Painters = ({ data, gridCols }) => {
             </ul>
           </div>
         )}
-        <h3 className="leading-5 flex gap-2 justify-end items-end pt-3">
-          Urednik teksta:{" "}
-          <span className="font-semibold">{data.textEditor}</span>
-        </h3>
+        <div className="flex flex-col leading-5 text-gray-800">
+          <h3 className="flex gap-2 justify-end items-end pt-3">
+            Urednik teksta:
+            <span className="font-semibold">{data.textEditor}</span>
+          </h3>
+          <h3 className="leading-5 flex gap-2 justify-end items-end">
+            Objavljeno:
+            <span className="font-semibold">{data.publishedAt}</span>
+          </h3>
+        </div>
       </section>
 
       <section
