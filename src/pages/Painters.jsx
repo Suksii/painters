@@ -27,18 +27,25 @@ const Painters = ({ data, gridCols }) => {
           </p>
         ))}
       </section>
-      {data.rewards && data.rewards.length > 0 && (
-        <section className="mt-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Nagrade</h2>
-          <ul className="list-disc list-inside space-y-2 text-gray-700">
-            {data.rewards.map((reward, index) => (
-              <li key={index} className="text-lg">
-                {reward}
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
+      <section>
+        {data.rewards && data.rewards.length > 0 && (
+          <div className="mt-12">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Nagrade</h2>
+            <ul className="list-disc list-inside space-y-2 text-gray-700">
+              {data.rewards.map((reward, index) => (
+                <li key={index} className="text-lg">
+                  {reward}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        <h3 className="leading-5 flex gap-2 justify-end items-end pt-3">
+          Urednik teksta:{" "}
+          <span className="font-semibold">{data.textEditor}</span>
+        </h3>
+      </section>
+
       <section
         className={`mt-12 grid grid-cols-1 lg:grid-cols-2 xl:${gridCols} gap-2`}
       >

@@ -44,6 +44,7 @@ import { IoMailSharp } from "react-icons/io5";
           "Rad Deljoša Dokaja otkriva jednu dovoljno savremenu, čak univerzalnu čuvstvenost, koju treba posnnatrati I prihvatiti i izvan isključivo lokalne prisme. Zaista posebna, ona svakako sadrši neke elemente svog okruženja, ali je i transponovana u daleke reminiscencije, posebno tematske, te u prostorne, a katkad i kolorističke odnose.. lako privlačna sila koja Dokaja vuče prema nadrealnom i metaforičkom ostavlja gotovo neizbrisiv trag, umjetnik postepeno udaljio od simboličkog ifantastičnog slikarstra iprihvatio neposrednije, šivlje uticaje sauremenih ambijenata koji ga okružuju. Oru intimnu promjenu odnosa prema svijetu ispratila je i promjena umjetničkog jezika, čija je posljedica pročišćavanje isražaja, brisanje de talja, fornmalna sinteza površina i upotreba strožeg spektra boja. Dugi nis crteža, zatim, Đokaju je poslužio kao posrednik ismedu gravure i slikanja; ruka je poslušala naredbe i želje vida - nalazimo se pred vanrednim primjerom logičkog i posljedičnog razvoja ideje do njene konačne i savršene realizacije...",
       },
     ],
+    textEditor: "Amina Drešević",
     images: [
       {
         image: DjokajDjeljos1,
@@ -96,6 +97,7 @@ import { IoMailSharp } from "react-icons/io5";
       "Nagrada za pojedinačna ostvarenja na XXVIIl izložbi, 2010.god. Pojedinačna jedinstvena nagrada za starosnu grupu od 11 do 15 godina, Slovenija, 2007.god.",
     ],
     criticism: [],
+    textEditor: "Amina Drešević",
     images: [
       {
         image: GjokajAgron1,
@@ -136,6 +138,7 @@ import { IoMailSharp } from "react-icons/io5";
       "Prvo mjesto za slikarstvo u koloniji “Pro beach soocer 2007.god.",
     ],
     criticism: [],
+    textEditor: "Amina Drešević",
     images: [
       {
         image: KapllaniEdin1,
@@ -190,6 +193,7 @@ import { IoMailSharp } from "react-icons/io5";
           "Ujednačeni kompozicioni sklad u radovima Vahide Nimanbegu, naizgled slučajni ritmičko-dinamički odnosi, navode na rasmišljanje da je sve gotovo spontano nastalo. Upravoje suprotno. Promišljeni i izbalansirani likovni elementi djela čine konstrukt slike otvorenim poljem osmišljenih intervencija. Ove slike pričaju priču amalgamiranih iskustava, sagu nasljeda, rodne semlje, obale, obližnjih vrtova i dardina i sve su te priče, kao pačvorci tkanina povesane „šavovima” videnog (unutarnjeg oka ), u nadovesijućem smislenom slijedu, tvoreći specifičan „ ćilim sjećanja, proživljenog, naslućenog, šeljenog. Vahida to radi jednostavnin, pikturalnim jezikom, wnim geometrijskim formama u akcentima kgje multiplikuje - kvadrat, pravougaonik, krug. Corjek nije neophodan u bukralnom fguralnom prikazu, jer je opšte prisutan u svakom potesu kičice, reljefno naglašene fakure ili pak manje intensivnom egsekutivnom naboju. Simbolika sašimanja provocira kontekstualisaciju dva srijeta - prirode oko nas i one u nama, sujetova koji kohabiiraju ujedinstuenin koloritnin senzacijama, zamamno isbalansirane energetske potencije. Vedro i živono, zagonetno i intrigantno, lirsko i intimisticko, slikarsvo Vahide Nimanbegu yjeruje u sinhronisaciju/sublimaciju životnih sokova kros jedinstvo rasličitosti - umjetnosti i kultura ondašnjih prostora, ljepote krajolika fisichih pejzaža, ali i onih mentalnih što kros simbol progovaraju u vidljivom.",
       },
     ],
+    textEditor: "Amina Drešević",
     images: [
       {
         image: NimanbeguHasanagaVahida1,
@@ -233,6 +237,7 @@ import { IoMailSharp } from "react-icons/io5";
       "„Bijenale međunarodnog crtanja” - Nacionalna galerija Kosova, Priština, 2004.god.",
     ],
     criticism: [],
+    textEditor: "Amina Drešević",
     images: [
       {
         image: PrelvukajZake1,
@@ -299,6 +304,7 @@ import { IoMailSharp } from "react-icons/io5";
           "..Djelo Renate Mašanović je prepoznatljivo, te bogato kvalitetima koje treba da ima snačujna unmjetnost. Autentičnost je prva i najsnačajnija karakteristika djela ulcinjske umjetnice. Njenu ribu cemo preposnati uvijek, njenu čemo poruku sa keramičke šolje prihvatiti ne bes smijeha i ne bes gorčine. Da, njen je humor sofisticiran i gorak. Baš onakar kakar mora i biti ako se radi o subversivnom umjetniku, odnosno umjetnici. Renata Mašanović to svakakojeste. Njene su tvorevine korisne, lijepe, duhovite i subversivne. Nikada nisu tek dobro i originalno napravljen predmet, već dobro i originalno napravljen predmet koji upire prstom u društvo i njegova nevesela gibanja. Njena je umjetnost „skromna”- na ruborima velikih tema. Njenje pogled onaj iskosa, a veliki mislioci današnjice vjeruju da je upravo taj pogled jedini autentičan ijedini koji može biti subversivan",
       },
     ],
+    textEditor: "Amina Drešević",
     images: [
       {
         image: RijavecMasanovicRenata1,
@@ -354,6 +360,7 @@ import { IoMailSharp } from "react-icons/io5";
     ],
     rewards: [],
     criticism: [],
+    textEditor: "Amina Drešević",
     images: [
       {
         image: KoljaBerisaj1,
