@@ -50,7 +50,7 @@ const MainPage = () => {
       },
     ],
     textEditor: "Amina Drešević",
-    publishedAt: "7. oktobar 2024.",
+    publishedAt: "12. septembar 2024.",
   };
 
   const iconMap = {

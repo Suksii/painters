@@ -45,7 +45,7 @@ import { IoMailSharp } from "react-icons/io5";
       },
     ],
     textEditor: "Amina Drešević",
-    publishedAt: "15. oktobar 2024.",
+    publishedAt: "19. septembar 2024.",
     images: [
       {
         image: DjokajDjeljos1,
@@ -99,7 +99,7 @@ import { IoMailSharp } from "react-icons/io5";
     ],
     criticism: [],
     textEditor: "Amina Drešević",
-    publishedAt: "22. oktobar 2024.",
+    publishedAt: "26. septembar 2024.",
     images: [
       {
         image: GjokajAgron1,
@@ -141,7 +141,7 @@ import { IoMailSharp } from "react-icons/io5";
     ],
     criticism: [],
     textEditor: "Amina Drešević",
-    publishedAt: "29. oktobar 2024.",
+    publishedAt: "3. oktobar 2024.",
     images: [
       {
         image: KapllaniEdin1,
@@ -197,7 +197,7 @@ import { IoMailSharp } from "react-icons/io5";
       },
     ],
     textEditor: "Amina Drešević",
-    publishedAt: "5. novembar 2024.",
+    publishedAt: "10. oktobar 2024.",
     images: [
       {
         image: NimanbeguHasanagaVahida1,
@@ -242,7 +242,7 @@ import { IoMailSharp } from "react-icons/io5";
     ],
     criticism: [],
     textEditor: "Amina Drešević",
-    publishedAt: "12. novembar 2024.",
+    publishedAt: "17. oktobar 2024.",
     images: [
       {
         image: PrelvukajZake1,
@@ -310,7 +310,7 @@ import { IoMailSharp } from "react-icons/io5";
       },
     ],
     textEditor: "Amina Drešević",
-    publishedAt: "19. novembar 2024.",
+    publishedAt: "24. oktobar 2024.",
     images: [
       {
         image: RijavecMasanovicRenata1,
@@ -367,7 +367,7 @@ import { IoMailSharp } from "react-icons/io5";
     rewards: [],
     criticism: [],
     textEditor: "Amina Drešević",
-    publishedAt: "26. novembar 2024.",
+    publishedAt: "31. oktobar 2024.",
     images: [
       {
         image: KoljaBerisaj1,

@@ -1,6 +1,6 @@
 import { IoClose } from "react-icons/io5";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const FullscreenImage = ({
   selectedImageIndex,
@@ -36,6 +36,20 @@ const FullscreenImage = ({
       prevIndex === 0 ? data.images.length - 1 : prevIndex - 1
     );
   };
+
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === "ArrowRight") nextImage();
+      else if (e.key === "ArrowLeft") prevImage();
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [selectedImageIndex]);
+
   return (
     <>
       {selectedImageIndex !== null && (
