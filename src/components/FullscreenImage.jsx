@@ -1,6 +1,7 @@
 import { IoClose } from "react-icons/io5";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { useEffect, useRef, useState } from "react";
+import useThrottle from "../hooks/useThrottle";
 
 const FullscreenImage = ({
   selectedImageIndex,
@@ -27,15 +28,15 @@ const FullscreenImage = ({
     setDragStart(null);
   };
 
-  const nextImage = () => {
+  const nextImage = useThrottle(() => {
     setSelectedImageIndex((prevIndex) => (prevIndex + 1) % data.images.length);
-  };
+  }, 500);
 
-  const prevImage = () => {
+  const prevImage = useThrottle(() => {
     setSelectedImageIndex((prevIndex) =>
       prevIndex === 0 ? data.images.length - 1 : prevIndex - 1
     );
-  };
+  }, 500);
 
   useEffect(() => {
     const handleKeyDown = (e) => {
