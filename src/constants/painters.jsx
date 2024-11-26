@@ -185,9 +185,9 @@ import { IoMailSharp } from "react-icons/io5";
     criticism: [
       {
         title:
-          "Dr Anastasija Miranović likovna kritičarka o stvaralaštvu Vahide Nimanbegu",
+          "Dr Anastasija Miranović, likovna kritičarka, o stvaralaštvu Vahide Nimanbegu",
         description:
-          "Ujednačeni kompozicioni sklad u radovima Vahide Nimanbegu, naisgled sluõjni ritmičko-dinamički odnosi, navode na rasmišljanje da je sve gotovo spontano nastalo. Upravoje suprotno. Promišljeni i izbalansirani likovni elementi djela čine konstrukt slike otvorenim poljem osmišljenih intervencija. Ove slike pričaju priču amalgamiranih iskustava, sagu nasljeda, rodne semlje, obale, obližnjih vrtova i dardina i sve su te priče, kao pačvorci tkanina povesane „šavovima” videnog (unutarnjeg oka ), u nadovesijućem smislenom slijedu, tvoreći specifičan „ ćilim sjećanja, proživljenog, naslućenog, šeljenog. Vahida to radi jednostavnin, pikturalnim jezikom, wnim geometrijskim formama u akcentima kgje multiplikuje - kvadrat, pravougaonik, krug. Corjek nije neophodan u bukralnom fguralnom prikazu, jer je opšte prisutan u svakom potesu kičice, reljefno naglašene fakure ili pak manje intensivnom egsekutivnom naboju. Simbolika sašimanja provocira kontekstualisaciju dva srijeta - prirode oko nas i one u nama, sujetova koji kohabiiraju ujedinstuenin koloritnin senzacijama, zamamno isbalansirane energetske potencije. Vedro i živono, zagonetno i intrigantno, lirsko i intimisticko, slikarsvo Vahide Nimanbegu yjeruje u sinhronisaciju/sublimaciju životnih sokova kros jedinstvo rasličitosti - umjetnosti i kultura ondašnjih prostora, ljepote krajolika fisichih pejzaža, ali i onih mentalnih što kros simbol progovaraju u vidljivom.",
+          "Ujednačeni kompozicioni sklad u radovima Vahide Nimanbegu, naizgled slučajni ritmičko-dinamički odnosi, navode na rasmišljanje da je sve gotovo spontano nastalo. Upravoje suprotno. Promišljeni i izbalansirani likovni elementi djela čine konstrukt slike otvorenim poljem osmišljenih intervencija. Ove slike pričaju priču amalgamiranih iskustava, sagu nasljeda, rodne semlje, obale, obližnjih vrtova i dardina i sve su te priče, kao pačvorci tkanina povesane „šavovima” videnog (unutarnjeg oka ), u nadovesijućem smislenom slijedu, tvoreći specifičan „ ćilim sjećanja, proživljenog, naslućenog, šeljenog. Vahida to radi jednostavnin, pikturalnim jezikom, wnim geometrijskim formama u akcentima kgje multiplikuje - kvadrat, pravougaonik, krug. Corjek nije neophodan u bukralnom fguralnom prikazu, jer je opšte prisutan u svakom potesu kičice, reljefno naglašene fakure ili pak manje intensivnom egsekutivnom naboju. Simbolika sašimanja provocira kontekstualisaciju dva srijeta - prirode oko nas i one u nama, sujetova koji kohabiiraju ujedinstuenin koloritnin senzacijama, zamamno isbalansirane energetske potencije. Vedro i živono, zagonetno i intrigantno, lirsko i intimisticko, slikarsvo Vahide Nimanbegu yjeruje u sinhronisaciju/sublimaciju životnih sokova kros jedinstvo rasličitosti - umjetnosti i kultura ondašnjih prostora, ljepote krajolika fisichih pejzaža, ali i onih mentalnih što kros simbol progovaraju u vidljivom.",
       },
     ],
     images: [
@@ -213,7 +213,7 @@ import { IoMailSharp } from "react-icons/io5";
         image: NimanbeguHasanagaVahida3,
         text: (
           <span>
-            Kapllani Edin, bez naziva, kombinovana tehnika.
+            Nimanbegu Hasanaga Vahida, bez naziva, akrilik na platnu.
             <br /> Fotografisao: Arben Çunmulaj
           </span>
         ),
@@ -223,12 +223,13 @@ import { IoMailSharp } from "react-icons/io5";
  export const PrelvukajZake = {
     title: "Prelvukaj Zake",
     paragraphs: [
-      "Prelvukaj Zake je rodena 1961. godine u Martinovićima (Martinaj), opština Gusinje.U dịetinjstvu porodica napušta Crnu Gorui odlazi u Prištinu Kosovo. Na Fakultetu umjetnosti DAE Odsjek slikarstvo, diplomirala je 1990 godine u klasi profesora Nusreta Salihamidžića. Magistrirala je 1997. godine slikarstvo u klasi profesora Muslima Mulićija. Radi na istom fakultetu kao redovni profesor na predmetu Monumentalno slikarstvo. Povremeno predaje na ljetnjim univerzitetima i kulturnim institucijama u zemlji i inostranstvu.",
+      "Prelvukaj Zake je rodena 1961. godine u Martinovićima (Martinaj), opština Gusinje. U dịetinjstvu porodica napušta Crnu Gorui odlazi u Prištinu Kosovo. Na Fakultetu umjetnosti DAE Odsjek slikarstvo, diplomirala je 1990 godine u klasi profesora Nusreta Salihamidžića. Magistrirala je 1997. godine slikarstvo u klasi profesora Muslima Mulićija. Radi na istom fakultetu kao redovni profesor na predmetu Monumentalno slikarstvo. Povremeno predaje na ljetnjim univerzitetima i kulturnim institucijama u zemlji i inostranstvu.",
       "Pored umjetničkog stvaralaštva, bavi se likovnom kritikom, scenografijom i kostimografijom. Imala je 33 samostalne izložbe na Kosovu, Crnoj Gori, Albaniji, Srbiji, Makedoniji, Hrvatskoj, Njemačkoj, Austriji, Španiji, Belgiji, Velikoj Britaniji i Sjedinjenim Američkim Državama, a učestvovala je i na preko 100 grupnih, kolektivnih i izložbi po pozivu još u Bosni i Hercegovini, Mađarskoj, Francuskoj, Turskoj, Italiji, Švajcarskoj, Indiji i Japanu. Sa umjetničkim preduzećem „New Balkan”, realizovala je umjetničke projekte u zemlji i inostranstvu kao što su: freske, mozaici, murali, javna umjetnost, izložbe, debate... Bila je kustos nekoliko domaćih imeđunarodnih izložbi. Djela su joj zastupljena u muzejima i galerijama širom Evrope i u Nacionalnom muzeju žena u umjetnosti u Vašingtonu, jedinom te vrste u svijetu. Živi i radi u Prištini.",
     ],
     rewards: [
       "Nagrada na „Međunarodnom bijenalu crtanja portreta” Tuzla, Bosna i Hercegovina, 2006.god.",
       "Nagrada na nacionalnoj izložbi „Novembarska scena” Skoplje, Makedonija, 2005.god.",
+      "Nagrada na međunarodnoj izložbi „Cvijeće za Aleksandra Mojsijuna”, Lugano Svajcarska, 2005.god.",
       "„Bijenale međunarodnog crtanja” - Nacionalna galerija Kosova, Priština, 2004.god.",
     ],
     criticism: [],
@@ -283,7 +284,7 @@ import { IoMailSharp } from "react-icons/io5";
  export const RijavecMasanovicRenata = {
     title: "Rijavec Mašanović Renata",
     paragraphs: [
-      "Rijavec Mašanović Renata je rodena 1970. godine u Zemnunu. Završila je školu za industrijsko oblikovanjeu Beogradu 1988. godine. Diplomirala je na Falkultetu primenjenih umetnosti i dizajna u Beogradu, na Odsjeku keramika i staklo, u klasi profesorke Mirjane Isaković 1996. godine. Clanica je Udruženja likovnih umetnika primenjenih umetnosti Srbije i Udruženja likovnih umjetnika Crne Gore.",
+      "Rijavec Mašanović Renata je rođena 1970. godine u Zemunu. Završila je školu za industrijsko oblikovanje u Beogradu 1988. godine. Diplomirala je na Falkultetu primenjenih umetnosti i dizajna u Beogradu, na Odsjeku keramika i staklo, u klasi profesorke Mirjane Isaković 1996. godine. Clanica je Udruženja likovnih umetnika primenjenih umetnosti Srbije i Udruženja likovnih umjetnika Crne Gore.",
       "U periodu 1992-1994. godine živjela je u Sloveniji gdje je učestvovala u više multimedijalnih projekata i pozorišnih predstava na kojima je radila specijalne efekte i scensku masku. Bavi se utilitarnom keramikom ikeramičkom skulpturom, ilustracijom, fotografijom, i grafičkim dizajnom.",
       "Samostalno je izlagala utilitarnu keramiku i keramičke skulpture u galerijama u Crnoj Gori, Srbiji i Albaniji. Takode je izlagala keramiku, crteže i slike na kolektivnim izložbama u Srbiji, Crnoj Gori, Hrvatskoj, Sloveniji i Austriji. Vodi likovnu radionicu za djecu iz Ulcinja sa slikarkom Vahidom Hasanagić Nimanbegu.",
       "Samostalna je umjetnica od 2002. godine. Živi i radi u Ulcinju.",
