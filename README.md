@@ -5,12 +5,12 @@ This project is a web application built with React.js, design to present Albania
 
 ## Technical Details
 - **React.js:**
-  - `useState`
+  - `useState, useEffect, useRef, useThrottle(custom hook)`
   - `react-icons`
   - `tailwindCSS`
-  - `react-router-dom (BrowserRouter, Routes, Route, Link)`
+  - `react-router-dom (BrowserRouter, Routes, Route, Link, useLocation)`
  
-- **JavaScript:** , window.open, map
+- **JavaScript:** , window.open, window.addEventListener, window.removeEventListener, map, slice, events(key, clientX)
 
 ## Installation
 1. Create a folder on the desktop: `mkdir MyProject`
